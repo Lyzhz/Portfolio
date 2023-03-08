@@ -1,0 +1,67 @@
+.navbar {
+    gap: 13px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 7;
+}
+
+.navbar-nav {
+    gap: 15px;
+}
+
+.contact {
+    display: flex;
+    padding: 0;
+}
+
+.contact-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.contact-icons img {
+    width: 45px;
+    justify-content: end;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 20px;
+}
+
+.instituicoes-link {
+    display: flex;
+    justify-content: center;    
+}
+
+.navbar-brand {
+    font-family: 'Luminari';
+    font-size: 30px;
+}
+
+.nav-item {
+    font-size: 20px;
+}
+
+.site-footer {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-text {
+    font-size: 40px;
+    font-family: 'Luminari';
+}
+
+.global {
+    display: grid;
+    grid-template-rows: 71px 1fr auto;
+    min-height: 100vh;
+}

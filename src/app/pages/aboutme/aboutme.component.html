@@ -1,0 +1,42 @@
+<div class="aboutme">
+  <div class="aboutme-content">
+    <div class="container">
+      <section class="main">
+        <img
+          class="icon-content"
+          src="../../../assets/Me-icon.ico"
+          alt="Lyz-foto"
+        />
+        <div class="about-text">
+          <h2>About Me</h2>
+          <h5>Developer <span>Fullstack</span></h5>
+          <div>
+            <p>
+              My name is Luis Henrique Nunes Alves and I'm 20 years old, I study
+              systems analysis and development at Centro Universitário das
+              Faculdades Metropolitanas Unidas(FMU), I'm a Full-stack developer
+              and always looking to contribute in some way to the community and
+              learn together , I am looking for an opportunity to acquire more
+              knowledge in the field and improve my skills.
+            </p>
+            <button
+              class="btn btn-outline-primary"
+              class="buttonknowledge"
+              (click)="showKnowledges()"
+              [ngClass]="{ 'btn-hover': isHovered }"
+              [disabled]="disabledBtn"
+              (mouseover)="isHovered = true"
+              (mouseout)="isHovered = false"
+            >
+              Knowledge
+            </button>
+            <span *ngIf="skills" class="conledge">
+              HTML, CSS, JavaScript, TypeScript, Angular, SQL, Git, GitHub,
+              Bootstrap.</span
+            >
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
