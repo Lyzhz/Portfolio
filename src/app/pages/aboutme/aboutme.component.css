@@ -98,6 +98,7 @@ span {
     height: 60px;
   }
   .conledge {
+    position: relative;
     animation: slide-bottom1 1s forwards;
   }
 }
