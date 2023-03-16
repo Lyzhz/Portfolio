@@ -1,31 +1,19 @@
-@keyframes fade-inout {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 .sessao-apresentacao-nome {
   animation: fade-inout 1s;
   font-size: 5em;
   text-align: center;
 }
-
 .sessao-apresentacao {
   background: linear-gradient(180deg, #a219f1 0%, #edeffa 100%);
   align-items: center;
-  min-height: 79.9vh;
+  min-height: 79.5vh;
   max-width: 100%;
 }
-
 .nome {
   display: flex;
   flex-direction: column;
   align-items: start;
 }
-
 .nome-title {
   display: flex;
   justify-content: center;
@@ -36,7 +24,6 @@
   margin-bottom: 0;
   color: white;
 }
-
 .nome-subtitle {
   display: flex;
   justify-content: center;
@@ -45,18 +32,15 @@
   margin: 0;
   color: white;
 }
-
 .corpo-content {
   display: flex;
   width: 100%;
   max-width: 500px;
   margin: inherit;
 }
-
 .sessao-apresentacao {
   overflow-x: auto;
 }
-
 @media screen and (min-width: 1200px) {
   .sessao-apresentacao {
     max-height: 736px;
@@ -72,9 +56,17 @@
     font-size: 35px;
   }
 }
-
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 310px) {
   .nome {
     align-items: center;
+  }
+}
+
+@keyframes fade-inout {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }

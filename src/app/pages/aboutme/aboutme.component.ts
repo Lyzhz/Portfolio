@@ -7,6 +7,7 @@ import { NgModel } from '@angular/forms';
   templateUrl: './aboutme.component.html',
   styleUrls: ['./aboutme.component.css']
 })
+// Button to show skills and Button Disabled 
 export class AboutmeComponent {
   isHovered = false;
   skills: boolean = false;
