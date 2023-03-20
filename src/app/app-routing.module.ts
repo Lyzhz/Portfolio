@@ -4,12 +4,16 @@ import { RouterModule, Routes } from '@angular/router';
 import { InstituicoesComponent } from './pages/instituicoes/instituicoes.component';
 import { HomeComponent } from './pages/home/home.component';
 import { AboutmeComponent } from './pages/aboutme/aboutme.component';
+import { CurriculumComponent } from './pages/curriculum/curriculum.component';
+import { ProjectsComponent } from './pages/projects/projects.component';
 
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'instituicoes', component: InstituicoesComponent },
   { path: 'aboutme', component: AboutmeComponent },
+  { path: 'curriculum', component: CurriculumComponent },
+  { path: 'projects', component: ProjectsComponent },
 ];
 
 @NgModule({

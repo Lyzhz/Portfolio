@@ -1,0 +1,24 @@
+<div class="global">
+  <div class="curriculum container w3-animate-top">
+    <div class="pdf">
+        <img
+        class="pdfcurriculum"
+        src="../../../assets/pdf curriculo.png"
+        alt="pdf"
+        />
+    </div>
+</div>
+<div class="downloadbutton container w3-animate-bottom">
+  <a
+    class="btn btn-outline-primary"
+    class="pdfdownload"
+    [ngClass]="{ 'btn-hover': isHovered }"
+    (mouseover)="isHovered = true"
+    (mouseout)="isHovered = false"
+    href="../../../assets/Curriculo.pdf"
+    download="Curriculum-LuisNunes.pdf"
+  >
+    Download PDF
+</a>
+</div>
+</div>

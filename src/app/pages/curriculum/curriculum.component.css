@@ -1,0 +1,59 @@
+.pdfcurriculum {
+  animation: fade-inout 2s;
+  display: flex;
+  width: 500px;
+  height: 650px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.pdf {
+  align-items: center;
+  justify-content: center;
+}
+.pdfdownload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pdfdownload {
+  animation: fade-inout 2s;
+  background: linear-gradient(180deg, #a219f1, #cd7eec);
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "lato";
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: none;
+  border-radius: 7px;
+  outline: none;
+  width: 270px;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.btn-hover {
+  transform: scale(1.03);
+}
+@media screen and (max-width: 768px) {
+  .pdfcurriculum {
+    width: 270px;
+    height: 360px;
+  }
+  .pdfdownload {
+    width: 210px;
+    height: 40px;
+  }
+}
+    
+@keyframes fade-inout {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
