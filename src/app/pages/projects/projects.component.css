@@ -1,0 +1,112 @@
+body {
+  color: var(--clr-neon);
+}
+h5 {
+  display: flex;
+  color: #fff;
+  font-family: "Lato";
+  font-size: 3rem;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  color: hsl(0, 89%, 58%);
+  font-family: "Lato";
+  font-size: 2rem;
+  text-shadow: 0 0 10px hsl(0, 89%, 58%), 0 0 20px hsl(0, 89%, 58%);
+}
+p {
+  color: hsl(19, 92%, 74%);
+  font-family: "Lato";
+  font-size: 17px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding: 0;
+}
+i {
+  color: hsl(19, 92%, 74%);
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+.box {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+}
+.projects {
+  display: flex;
+  justify-content: space-evenly;
+}
+.card-projects1 {
+  height: 640px;
+  width: 470px;
+  background: #1f1f1f;
+  border-radius: 20px;
+  margin: 5px;
+  text-align: center;
+  box-shadow: 6px 7px rgba(0, 0, 0, 0.25);
+}
+.card-projects2 {
+  height: 630px;
+  width: 470px;
+  background: #1f1f1f;
+  border-radius: 20px;
+  margin: 5px;
+  text-align: center;
+  box-shadow: 6px 7px rgba(0, 0, 0, 0.25);
+}
+.Pokedex {
+  border-radius: 24px;
+  width: 300px;
+  margin: 0;
+}
+.icon-pokemon {
+  position: relative;
+  border-radius: 50%;
+  top: 68px;
+  left: 134px;
+  width: 24px;
+}
+.coming-soon {
+  font-size: 3rem;
+
+  display: inline-block;
+  padding: 0.25em 1em;
+  border-radius: 0.25em;
+
+  --clr-neon: hsl(317 100% 54%);
+  text-shadow: 0 0 10px hsl(317 100% 54%), 0 0 20px hsl(317 100% 54%),
+    0 0 40px hsl(317 100% 54%), 0 0 80px hsl(317 100% 54%),
+    0 0 120px hsl(317 100% 54%);
+}
+.buttonpoke {
+  color: white;
+  margin-top: 10px;
+  margin-left: 135px;
+  text-decoration: none;
+  border: 0px solid transparent;
+  font-weight: bold;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #a219f1, #e278e2);
+  font-size: 20px;
+  font-family: "Lato";
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  outline: none;
+  width: 200px;
+  height: 50px;
+  bottom: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 6px 7px rgba(0, 0, 0, 0.25);
+}
+.button:hover {
+  transform: scale(1.04);
+}
