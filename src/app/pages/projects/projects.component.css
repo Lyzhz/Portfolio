@@ -1,3 +1,6 @@
+.global {
+  animation: fade-inout 1s;
+}
 body {
   color: var(--clr-neon);
 }
@@ -8,17 +11,17 @@ h5 {
   font-size: 3rem;
   align-items: center;
   justify-content: center;
-  margin: 0;
+  margin-top: 10px;
   padding: 0;
 }
 h2 {
-  color: hsl(0, 89%, 58%);
+  color: hsl(0, 15%, 86%);
   font-family: "Lato";
   font-size: 2rem;
-  text-shadow: 0 0 10px hsl(0, 89%, 58%), 0 0 20px hsl(0, 89%, 58%);
+  text-shadow: 0 0 10px hsl(0, 20%, 93%), 0 0 20px hsl(0, 89%, 58%);
 }
 p {
-  color: hsl(19, 92%, 74%);
+  color: hsl(20, 14%, 91%);
   font-family: "Lato";
   font-size: 17px;
   margin-top: 10px;
@@ -26,7 +29,7 @@ p {
   padding: 0;
 }
 i {
-  color: hsl(19, 92%, 74%);
+  color: hsl(12, 9%, 90%);
   font-size: 15px;
   margin: 0;
   padding: 0;
@@ -34,11 +37,12 @@ i {
 .box {
   display: flex;
   justify-content: space-evenly;
-  margin: 0;
+  margin-right: 10px;
   padding: 0;
 }
 .projects {
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
 }
 .card-projects1 {
@@ -109,4 +113,83 @@ i {
 }
 .button:hover {
   transform: scale(1.04);
+}
+@keyframes fade-inout {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 968px) {
+  h5 {
+    font-size: 2.5rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .projects {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card-projects2 {
+    height: 110px;
+    width: 470px;
+  }
+  .box {
+    margin-bottom: 10px;
+    position: sticky;
+  }
+}
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+  h5 {
+    font-size: 2.5rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 14px;
+  }
+  .box {
+    margin-bottom: 10px;
+    position: sticky;
+  }
+  .card-projects2 a {
+    margin-top: 15px;
+    padding: 0;
+    font-size: 40px;
+  }
+  .card-projects1 {
+    height: 570px;
+    width: 80%;
+  }
+  .Pokedex {
+    position: sticky;
+    width: 80%;
+  }
+  .icon-pokemon {
+    top: 12%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+  }
+  .buttonpoke {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 130px;
+    
+  }
+  .projects {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card-projects2 {
+    height: 100px;
+    width: 280px;
+  }
 }
