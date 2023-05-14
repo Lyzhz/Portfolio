@@ -1,8 +1,8 @@
 import { Router } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { InstituicoesComponent } from './pages/instituicoes/instituicoes.component';
 import { HomeComponent } from './pages/home/home.component';
+import { InstituicoesComponent } from './pages/instituicoes/instituicoes.component';
 import { AboutmeComponent } from './pages/aboutme/aboutme.component';
 import { CurriculumComponent } from './pages/curriculum/curriculum.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
