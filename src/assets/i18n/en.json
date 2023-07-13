@@ -1,0 +1,37 @@
+{
+  "allpage": {
+    "home": "Home",
+    "about": "About me",
+    "institutions": "Institutions",
+    "curriculum": "Curriculum",
+    "projects": "Projects",
+    "contactme": "Contact me",
+    "phone": "Phone",
+    "footer": "Developed by Luis Henrique © 2023"
+  },
+
+  "homepage": {
+    "title": "Hi, My name is Luis",
+    "subtitle": "Developer FullStack"
+  },
+
+  "aboutpage": {
+    "aboutme": "About Me",
+    "h5": "Developer",
+    "about": "My name is Luis Henrique Nunes Alves and I'm 21 years old, I study analysis and systems development at Centro Universitário das Faculdades Metropolitanas Unidas(FMU), I'm a fullstack developer, I'm looking for an opportunity to acquire more knowledge in the area and improve my skills.",
+    "skills": "Skills"
+  },
+
+  "institutionpage": {
+    "title": "Institutions",
+    "etec": "Completed in December 2020. Graduated as an Electrical Technician.",
+    "fmu": "Studying analysis and systems development. I will graduate in June 2025."
+  },
+
+  "projectspage": {
+    "title": "Projects",
+    "poketitle": "Simple project of a pokédex using API to show the pokemons",
+    "pokesub": "Project developed in HTML, CSS and Javascript, using the PokeAPI to show the pokemons.",
+    "comingsoon": "Coming soon..."
+  }
+}

@@ -10,16 +10,11 @@
         />
         <!-- About me -->
         <div class="about-text">
-          <h2>About Me</h2>
-          <h5>Developer <span>Fullstack</span></h5>
+          <h2>{{ "aboutpage.aboutme" | translate }}</h2>
+          <h5>{{ "aboutpage.h5" | translate }} <span>Fullstack</span></h5>
           <div>
             <p>
-              My name is Luis Henrique Nunes Alves and I'm 20 years old, I study
-              systems analysis and development at Centro Universitário das
-              Faculdades Metropolitanas Unidas(FMU), I'm a Full-stack developer
-              and always looking to contribute in some way to the community and
-              learn together , I am looking for an opportunity to acquire more
-              knowledge in the field and improve my skills.
+              {{ "aboutpage.about" | translate }}
             </p>
             <!-- Button to show my knowledges -->
             <button
@@ -31,7 +26,7 @@
               (mouseover)="isHovered = true"
               (mouseout)="isHovered = false"
             >
-              Skills
+            {{ "aboutpage.skills" | translate }}
             </button>
             <!-- Skill -->
             <span *ngIf="skills" class="conledge">

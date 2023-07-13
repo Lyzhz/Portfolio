@@ -19,23 +19,24 @@
           <!-- Menu Home -->
           <li class="nav-item">
             <a class="nav-link" href=""
-              >Home<span class="sr-only">(página atual)</span></a
+              >{{ "allpage.home" | translate }}<span class="sr-only">(página atual)</span></a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink="/aboutme" href="">About me</a>
+            <a class="nav-link" routerLink="/aboutme" href="">{{ "allpage.about" | translate }}</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" routerLink="/instituicoes" href=""
-              >Institutions</a
+              >{{ "allpage.institutions" | translate }}</a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink="/curriculum" href="">Curriculum</a>
-            <!-- Menu Contact me -->
+            <a class="nav-link" routerLink="/curriculum" href="">{{ "allpage.curriculum" | translate }}</a>
           </li>
+          <!-- Menu Contact me -->
           <li class="nav-item">
-            <a class="nav-link" routerLink="/projects" href="">Projects</a>
+            <a class="nav-link" routerLink="/projects" href="">{{ "allpage.projects" | translate }}</a>
+          </li>
 
           <li class="nav-item dropdown">
             <a
@@ -47,7 +48,7 @@
               aria-haspopup="true"
               aria-expanded="false"
             >
-              Contact me
+            {{ "allpage.contactme" | translate }}
             </a>
             <!-- MenuIcons-ContactMe -->
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -69,7 +70,7 @@
                     class="dropdown-item"
                     href="https://api.whatsapp.com/send?phone=5511989729095"
                     target="_blank"
-                    >Phone</a
+                    >{{ "allpage.phone" | translate }}</a
                   >
                   <a
                     class="dropdown-item"
@@ -83,12 +84,25 @@
           </li>
         </ul>
       </div>
+      {{ lang }}
+      <div class="switch">
+        <input
+          [(ngModel)]="lang"
+          (click)="switchLang()"
+          id="language-toggle"
+          class="check-toggle check-toggle-round-flat"
+          type="checkbox"
+        />
+        <label for="language-toggle"></label>
+        <span class="on">EN</span>
+        <span class="off">PT-BR</span>
+      </div>
     </nav>
   </header>
   <main>
     <router-outlet></router-outlet>
   </main>
   <footer class="site-footer">
-    <p class="footer-text">Welcome to my Portfolio</p>
+    <p class="footer-text">{{ "allpage.footer" | translate }}</p>
   </footer>
 </div>
