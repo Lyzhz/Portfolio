@@ -1,4 +1,9 @@
-.pdfcurriculum {
+.curriculum {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.pdfcurriculumen {
   animation: fade-inout 2s;
   display: flex;
   width: 500px;
@@ -8,16 +13,10 @@
   margin: 0 auto;
   margin-top: 15px;
 }
-.pdf {
-  align-items: center;
-  justify-content: center;
-}
-.pdfdownload {
+.pdfdownload-en {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-}
-.pdfdownload {
   animation: fade-inout 2s;
   background: linear-gradient(180deg, #a219f1, #cd7eec);
   color: white;
@@ -31,21 +30,58 @@
   outline: none;
   width: 270px;
   height: 40px;
-  margin: 0 auto;
+  margin: 0 100px;
   margin-top: 10px;
   cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  &:hover {
+    transform: scale(1.04);
+  }
 }
-.btn-hover {
-  transform: scale(1.03);
+.pdfdownload-br {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  animation: fade-inout 2s;
+  background: linear-gradient(180deg, #a219f1, #cd7eec);
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "lato";
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: none;
+  border-radius: 7px;
+  outline: none;
+  width: 270px;
+  height: 40px;
+  margin: 0 100px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  &:hover {
+    transform: scale(1.04);
+  }
 }
 @media screen and (max-width: 768px) {
-  .pdfcurriculum {
+  .curriculum {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centralizando os elementos verticalmente */
+  }
+  .pdfcurriculumen {
     width: 270px;
     height: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centralizando os elementos horizontalmente */
+    margin-top: 15px;
   }
-  .pdfdownload {
-    width: 210px;
-    height: 40px;
+
+  .pdfdownload-br,
+  .pdfdownload-en {
+    width: 100%;
+    margin: 10px 0;
   }
 }
     

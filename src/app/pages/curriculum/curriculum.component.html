@@ -1,24 +1,40 @@
 <div class="global">
-  <div class="curriculum container w3-animate-top">
-    <div class="pdf">
+  <div class="curriculuns">
+    <div class="curriculum container w3-animate-top">
+      <div class="pdf">
         <img
-        class="pdfcurriculum"
-        src="../../../assets/pdf curriculo.png"
-        alt="pdf"
+          class="pdfcurriculumen"
+          src="../../../assets/pdf-curriculo-BR.png"
+          alt="pdf"
         />
+        <div class="downloadbutton container w3-animate-bottom">
+          <a
+            class="btn btn-outline-primary"
+            class="pdfdownload-br"
+            href="../../../assets/Curriculo-BR.pdf"
+            download="Curriculum-LuisNunes-BR.pdf"
+          >
+            Download PT-BR
+          </a>
+        </div>
+      </div>
+        <div class="pdf">
+          <img
+            class="pdfcurriculumen"
+            src="../../../assets/pdf-curriculo-EN.png"
+            alt="pdf"
+          />
+          <div class="downloadbutton container w3-animate-bottom">
+            <a
+              class="btn btn-outline-primary"
+              class="pdfdownload-en"
+              href="../../../assets/Curriculo-EN.pdf"
+              download="Curriculum-LuisNunesEN.pdf"
+            >
+              Download EN
+            </a>
+          </div>
+        </div>
     </div>
-</div>
-<div class="downloadbutton container w3-animate-bottom">
-  <a
-    class="btn btn-outline-primary"
-    class="pdfdownload"
-    [ngClass]="{ 'btn-hover': isHovered }"
-    (mouseover)="isHovered = true"
-    (mouseout)="isHovered = false"
-    href="../../../assets/Curriculo.pdf"
-    download="Curriculum-LuisNunes.pdf"
-  >
-    Download PDF
-</a>
-</div>
+  </div>
 </div>

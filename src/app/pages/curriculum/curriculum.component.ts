@@ -6,7 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./curriculum.component.css'],
 })
 export class CurriculumComponent {
-  isHovered = false;
   skills: boolean = false;
   disabledBtn = false;
 }

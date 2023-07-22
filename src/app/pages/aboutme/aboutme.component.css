@@ -70,9 +70,10 @@
   height: 60px;
   cursor: pointer;
   z-index: 3;
+  transition: transform 0.3s ease-in-out;
 }
 .btn-hover {
-  transform: scale(1.03);
+  transform: scale(1.04);
 }
 .conledge {
   position: relative;
