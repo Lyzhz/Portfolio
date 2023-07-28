@@ -10,6 +10,7 @@ import { ProjectsComponent } from './pages/projects/projects.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
+  { path: 'home', component: HomeComponent},
   { path: 'instituicoes', component: InstituicoesComponent },
   { path: 'aboutme', component: AboutmeComponent },
   { path: 'curriculum', component: CurriculumComponent },
