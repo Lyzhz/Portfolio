@@ -10,8 +10,6 @@ import { AboutmeComponent } from './pages/aboutme/aboutme.component';
 import { CurriculumComponent } from './pages/curriculum/curriculum.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
 
-// import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
-// import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
