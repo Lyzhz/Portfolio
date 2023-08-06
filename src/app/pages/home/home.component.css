@@ -6,7 +6,7 @@
 .sessao-apresentacao {
   background: linear-gradient(180deg, #a219f1 0%, #edeffa 100%);
   align-items: center;
-  min-height: 79.5vh;
+  min-height: 100%;
   max-width: 100%;
 }
 .nome {
