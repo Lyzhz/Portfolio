@@ -12,12 +12,13 @@
 
   "homepage": {
     "title": "Hi, My name is Luis",
-    "subtitle": "Developer FullStack"
+    "subtitle": "FullStack Developer"
   },
 
   "aboutpage": {
     "aboutme": "About Me",
-    "h5": "Developer",
+    "h5": "FullStack",
+    "span": "Developer",
     "about": "My name is Luis Henrique Nunes Alves and I'm 21 years old, I study analysis and systems development at Centro Universitário das Faculdades Metropolitanas Unidas(FMU), I'm a fullstack developer, I'm looking for an opportunity to acquire more knowledge in the area and improve my skills.",
     "skills": "Skills"
   },
