@@ -34,7 +34,7 @@
     "poketitle": "Simple project of a pokédex using API",
     "pokesub": "Project developed in HTML, CSS and Javascript, using the PokeAPI to show the pokemons.",
     "crudname": "Simple CRUD",
-    "CRUDtitle": "Simple CRUD project using C#, ASP.NET and SQL Server",
-    "CRUDsub": "Project developed in C#, ASP.NET and SQL Server, using Entity Framework to connect the database."
+    "crudtitle": "Simple CRUD project using C#, ASP.NET and SQL Server",
+    "crudsub": "Project developed in C#, ASP.NET and SQL Server, using Entity Framework to connect the database."
   }
 }
