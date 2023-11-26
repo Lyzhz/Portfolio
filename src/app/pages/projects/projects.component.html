@@ -1,6 +1,6 @@
-<div class="global ">
+<div class="global">
   <div class="container w3-animate-top">
-  <h5>{{ "projectspage.title" | translate }}</h5>
+    <h5>{{ "projectspage.title" | translate }}</h5>
   </div>
   <div class="projects">
     <div class="box">
@@ -8,7 +8,7 @@
       <div class="card-projects1 container w3-animate-left">
         <img
           class="icon-pokemon"
-          src="../../../assets/pngwing.com.png"
+          src="/assets/img/pngwing.com.png"
           alt="Pokemon"
         />
         <div class="card-name">
@@ -16,11 +16,7 @@
         </div>
         <div class="icon">
           <div class="cardimage">
-            <img
-              class="Pokedex"
-              src="../../../assets/Pokedex.png"
-              alt="Pokedex"
-            />
+            <img class="Pokedex" src="/assets/img/Pokedex.png" alt="Pokedex" />
             <!-- Card Description And Button -->
             <div class="description" style="text-align: center">
               <p>
@@ -29,10 +25,6 @@
               <i>{{ "projectspage.pokesub" | translate }}</i>
               <a
                 class="btn btn-outline-primary"
-                class="buttonknowledge"
-                [ngClass]="{ 'btn-hover': isHovered }"
-                (mouseover)="isHovered = true"
-                (mouseout)="isHovered = false"
                 class="button"
                 target="_blank"
                 class="buttonpoke"
@@ -45,9 +37,29 @@
       </div>
     </div>
     <div class="box">
-      <!-- Card Project 2 - Coming Soon -->
+      <!-- Card Project 2 - CRUD -->
       <div class="card-projects2 container w3-animate-right">
-        <a class="coming-soon" style="color: white">{{ "projectspage.comingsoon" | translate }}</a>
+        <a class="card-name2" style="color: white"
+          ><h2>{{ "projectspage.crudname" | translate }}</h2></a
+        >
+        <div class="image2">
+          <img class="CRUD" src="/assets/img/SimpleCRUD.png" />
+          <!-- Card Description And Button -->
+          <div class="description" style="text-align: center">
+            <p>
+              {{ "projectspage.crudtitle" | translate }}
+            </p>
+            <i>{{ "projectspage.crudsub" | translate }}</i>
+            <a
+              class="btn btn-outline-primary"
+              class="button"
+              target="_blank"
+              class="buttoncrud"
+              href="https://github.com/Lyzhz/Simple-CRUD"
+              >Site</a
+            >
+          </div>
+        </div>
       </div>
     </div>
   </div>

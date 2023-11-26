@@ -150,6 +150,14 @@ span {
     z-index: 2;
   }
 }
+@media screen and (max-width: 932px) {
+  .buttonknowledge {
+    width: 360px;
+    height: 56px;
+  }
+  
+}
+
 
 @keyframes slide-bottom1 {
   from {

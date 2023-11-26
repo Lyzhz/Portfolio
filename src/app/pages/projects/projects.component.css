@@ -55,7 +55,7 @@ i {
   box-shadow: 6px 7px rgba(0, 0, 0, 0.25);
 }
 .card-projects2 {
-  height: 630px;
+  height: 640px;
   width: 470px;
   background: #1f1f1f;
   border-radius: 20px;
@@ -75,9 +75,9 @@ i {
   left: 134px;
   width: 24px;
 }
-.coming-soon {
-  font-size: 3rem;
-
+.card-name2 {
+  font-size: 2rem;
+  margin-top: 15px;
   display: inline-block;
   padding: 0.25em 1em;
   border-radius: 0.25em;
@@ -87,6 +87,15 @@ i {
     0 0 40px hsl(317 100% 54%), 0 0 80px hsl(317 100% 54%),
     0 0 120px hsl(317 100% 54%);
 }
+
+.CRUD {
+  width: 93.5%;
+  height: 100%;
+  border-radius: 20px;
+  margin: 0;
+  padding: 0;
+}
+
 .buttonpoke {
   color: white;
   margin-top: 10px;
@@ -109,10 +118,37 @@ i {
   bottom: 20px;
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
+  &:hover {
+    transform: scale(1.04);
+  }
   box-shadow: 6px 7px rgba(0, 0, 0, 0.25);
 }
-.button:hover {
-  transform: scale(1.04);
+.buttoncrud {
+  color: white;
+  margin-top: 10px;
+  margin-left: 120px;
+  text-decoration: none;
+  border: 0px solid transparent;
+  font-weight: bold;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #a219f1, #e278e2);
+  font-size: 20px;
+  font-family: "Lato";
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  outline: none;
+  width: 200px;
+  height: 50px;
+  bottom: 20px;
+  cursor: pointer;
+  box-shadow: 6px 7px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease-in-out;
+  &:hover {
+    transform: scale(1.04);
+  }
 }
 @keyframes fade-inout {
   0% {
@@ -131,10 +167,6 @@ i {
   .projects {
     flex-direction: column;
     align-items: center;
-  }
-  .card-projects2 {
-    height: 110px;
-    width: 470px;
   }
   .box {
     margin-bottom: 10px;
@@ -163,13 +195,16 @@ i {
   .card-projects2 a {
     margin-top: 15px;
     padding: 0;
-    font-size: 38px;
   }
   .card-projects1 {
     height: 570px;
     width: 80%;
   }
   .Pokedex {
+    position: sticky;
+    width: 80%;
+  }
+  .CRUD {
     position: sticky;
     width: 80%;
   }
@@ -182,14 +217,18 @@ i {
     margin-left: auto;
     margin-right: auto;
     max-width: 130px;
-    
+  }
+  .buttoncrud {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 130px;
   }
   .projects {
     flex-direction: column;
     align-items: center;
   }
   .card-projects2 {
-    height: 100px;
-    width: 280px;
+    height: 570px;
+    width: 80%;
   }
 }

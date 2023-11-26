@@ -4,14 +4,14 @@
       <div class="pdf">
         <img
           class="pdfcurriculumen"
-          src="../../../assets/pdf-curriculo-BR.png"
+          src="/assets/img/pdf-curriculo-BR.png"
           alt="pdf"
         />
         <div class="downloadbutton container w3-animate-bottom">
           <a
             class="btn btn-outline-primary"
             class="pdfdownload-br"
-            href="../../../assets/Curriculo-BR.pdf"
+            href="/assets/pdf/Curriculo-BR.pdf"
             download="Curriculum-LuisNunes-BR.pdf"
           >
             Download PT-BR
@@ -21,14 +21,17 @@
       <div class="pdf">
         <img
           class="pdfcurriculumen"
-          src="../../../assets/pdf-curriculo-EN.png"
+          src="/assets/img/pdf-curriculo-EN.png"
           alt="pdf"
         />
         <div class="downloadbutton container w3-animate-bottom">
           <a
             class="btn btn-outline-primary"
+            [ngClass]="{ 'btn-hover': isHovered }"
+            (mouseover)="isHovered = true"
+            (mouseout)="isHovered = false"
             class="pdfdownload-en"
-            href="../../../assets/Curriculo-EN.pdf"
+            href="/assets/pdf/Curriculo-EN.pdf"
             download="Curriculum-LuisNunesEN.pdf"
           >
             Download EN

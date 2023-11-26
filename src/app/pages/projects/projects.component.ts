@@ -6,5 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent {
-  isHovered = false;
 }

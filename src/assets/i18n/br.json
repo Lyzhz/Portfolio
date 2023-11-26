@@ -31,8 +31,10 @@
 
   "projectspage": {
     "title": "Projetos",
-    "poketitle": "Projeto simples de uma pokédex usando API para mostrar os pokemons",
+    "poketitle": "Projeto simples de uma pokédex usando API",
     "pokesub": "Projeto desenvolvido em HTML, CSS and Javascript, usando o PokeAPI para mostrar os pokemons.",
-    "comingsoon": "Em breve..."
+    "crudname": "CRUD Simples",
+    "crudtitle": "Projeto de um CRUD simples usando C#, ASP.NET e SQL Server",
+    "crudsub": "Projeto desenvolvido em C#, ASP.NET e SQL Server, usando o Entity Framework para fazer a conexão com o banco de dados."
 }
 }
